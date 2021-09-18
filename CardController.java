@@ -283,6 +283,10 @@ public class CardController {
     // Filters based on Card UUID and Card Status Active
     @GetMapping(path = "/v1/cards/uuid/{id}" , produces= APPLICATION_JSON_VALUE)
     public CardDTO getActiveCardById(@PathVariable(value = "id") String id) {
+        
+        
+        
+        wefnkjfbiufbyufbefbf
         return cardService.getCardById(id);
     }
 
